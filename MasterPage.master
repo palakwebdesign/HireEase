@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title></title>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Work+Sans:300,400,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="fonts/icomoon/style.css"/>
+
+    <link rel="stylesheet" href="Home/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="Home/css/magnific-popup.css"/>
+    <link rel="stylesheet" href="Home/css/jquery-ui.css"/>
+    <link rel="stylesheet" href="Home/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="Home/css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="Home/css/bootstrap-datepicker.css"/>
+    <link rel="stylesheet" href="Home/css/animate.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css"/>
+
+    
+
+    <link rel="stylesheet" href="Home/fonts/flaticon/font/flaticon.css"/>
+
+    <link rel="stylesheet" href="Home/css/aos.css"/>
+
+    <link rel="stylesheet" href="Home/css/style.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         
+           <div class="site-mobile-menu">
+                <div class="site-mobile-menu-header">
+                    <div class="site-mobile-menu-close mt-3">
+                    </div>
+                </div>
+            </div>
+        <div class="site-navbar-wrap js-site-navbar bg-white">
+
+                <div class="container">
+                    <div class="site-navbar bg-light">
+                        <div class="py-1">
+                            <div class="row align-items-center">
+                                <div class="col-2">
+                                    <h2 class="mb-0 site-logo"><a href="index.html">Hire<strong class="font-weight-bold">Ease</strong> </a></h2>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="unit-5 overlay" style="background-image: url('images/hero_1.jpg');">
+        <div class="container text-center" style="left: 0px; top: 11px">
+            <h2 class="mb-0">Exam</h2>
+            <p class="mb-0 unit-6">
+        </div>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
